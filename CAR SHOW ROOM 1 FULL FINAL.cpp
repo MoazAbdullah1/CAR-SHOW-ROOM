@@ -29,7 +29,9 @@ void displayCars(const Car cars[], int count) {
         
         cout << "-----------------------\n";
     }
+
 }
+
 
 void searchCar(const Car cars[], int count, const string& model) {
 	
@@ -51,6 +53,8 @@ void searchCar(const Car cars[], int count, const string& model) {
             break;
         }
     }
+
+
 
     if (!found) {
         cout << "Car not found in the showroom.\n";
@@ -114,6 +118,7 @@ int main() {
                 cout << "Car showroom is full. Cannot add more cars.\n";
             }
         }
+
         
 		else if (choice == 2) {
             displayCars(inventory, carCount);
@@ -136,6 +141,7 @@ int main() {
             
             cout << "Congratulations! You have bought a new car.\n";
         }
+        
 		else if (choice == 5) {
             cout << "Enter the model of the old car you want to buy: ";
 
