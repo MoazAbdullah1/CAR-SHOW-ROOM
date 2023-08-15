@@ -3,8 +3,11 @@
 
 using namespace std;
 
+
 // defining the maximum car capacity
+
 const int MAX_CARS = 100;
+
 
 struct Car {
     string model; 
@@ -160,7 +163,9 @@ int main() {
         
     }
 	
+	
 	while (choice != 6);
+	
 
     return 0;
     
